@@ -1,0 +1,54 @@
+{
+  "name": "modretro-chromatic-zcode-community",
+  "description": "Community bridge that lets ZCode use a locally installed official ModRetro Chromatic Codex plugin.",
+  "description_i18n": {
+    "en": "Community bridge that lets ZCode use a locally installed official ModRetro Chromatic Codex plugin.",
+    "zh-CN": "社区桥接市场，让 ZCode 调用本机已安装的官方 ModRetro Chromatic Codex 插件。"
+  },
+  "owner": {
+    "name": "Gujiajun020210",
+    "url": "https://github.com/Gujiajun020210"
+  },
+  "plugins": [
+    {
+      "name": "modretro-chromatic-zcode",
+      "source": "./plugins/modretro-chromatic-zcode",
+      "displayName": "ModRetro Chromatic Bridge",
+      "displayName_i18n": {
+        "en": "ModRetro Chromatic Bridge",
+        "zh-CN": "ModRetro Chromatic 本机桥接"
+      },
+      "description": "Use a locally installed official ModRetro Chromatic Codex plugin from ZCode; no vendor binaries are bundled.",
+      "description_i18n": {
+        "en": "Use a locally installed official ModRetro Chromatic Codex plugin from ZCode; no vendor binaries are bundled.",
+        "zh-CN": "在 ZCode 中调用本机已安装的官方 ModRetro Chromatic Codex 插件；不附带厂商二进制程序。"
+      },
+      "version": "0.1.0",
+      "author": {
+        "name": "Gujiajun020210",
+        "url": "https://github.com/Gujiajun020210"
+      },
+      "license": "MIT",
+      "category": "developer-tools",
+      "keywords": [
+        "modretro",
+        "chromatic",
+        "game-boy",
+        "game-boy-color",
+        "gb-studio",
+        "codex",
+        "mcp"
+      ],
+      "examplePrompts": [
+        "Create a small Game Boy Color platformer and open its preview.",
+        "Build my selected GB Studio project and test it in the emulator."
+      ],
+      "examplePrompts_i18n": {
+        "zh-CN": [
+          "制作一个 Game Boy Color 平台跳跃小游戏并打开预览。",
+          "编译我选定的 GB Studio 项目，并在模拟器中试玩。"
+        ]
+      }
+    }
+  ]
+}

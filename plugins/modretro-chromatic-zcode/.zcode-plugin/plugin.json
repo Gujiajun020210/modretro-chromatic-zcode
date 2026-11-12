@@ -1,0 +1,32 @@
+{
+  "name": "modretro-chromatic-zcode",
+  "displayName": "ModRetro Chromatic Bridge",
+  "displayName_i18n": {
+    "en": "ModRetro Chromatic Bridge",
+    "zh-CN": "ModRetro Chromatic 本机桥接"
+  },
+  "description": "Use a locally installed official ModRetro Chromatic Codex plugin from ZCode; no vendor binaries are bundled.",
+  "description_i18n": {
+    "en": "Use a locally installed official ModRetro Chromatic Codex plugin from ZCode; no vendor binaries are bundled.",
+    "zh-CN": "在 ZCode 中调用本机已安装的官方 ModRetro Chromatic Codex 插件；不附带厂商二进制程序。"
+  },
+  "version": "0.1.0",
+  "author": {
+    "name": "Gujiajun020210",
+    "url": "https://github.com/Gujiajun020210"
+  },
+  "homepage": "https://github.com/Gujiajun020210/modretro-chromatic-zcode",
+  "repository": "https://github.com/Gujiajun020210/modretro-chromatic-zcode",
+  "license": "MIT",
+  "keywords": [
+    "modretro",
+    "chromatic",
+    "game-boy",
+    "game-boy-color",
+    "gb-studio",
+    "codex",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}
